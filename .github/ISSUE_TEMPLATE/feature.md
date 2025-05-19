@@ -2,6 +2,7 @@
 name: Feature
 about: A specific feature that needs to be added/modified
 assignees: ''
+issue type: Feature
 ---
 
 ### Summary
