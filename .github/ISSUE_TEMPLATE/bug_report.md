@@ -1,8 +1,9 @@
 ---
-name: 🐞 Bug
+name: Bug
 about: File a bug/issue
 title: '[BUG] <title>'
 type: Bug
+labels: ''
 assignees: ''
 ---
 
