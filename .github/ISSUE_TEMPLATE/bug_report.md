@@ -1,21 +1,31 @@
 ---
-name: Bug report
-about: Describes a bug
-labels: bug
+name: 🐞 Bug
+about: File a bug/issue
+title: '[BUG] <title>'
+type: Bug
+assignees: ''
 ---
-    
-### Overview
-<!--- *A **very brief** description of the bug. Link to the relevant section of the project documentation for details!* --->
 
+<!--
+Note: Please search to see if an issue already exists for the bug you encountered.
+-->
 
-### To Reproduce
-1. ...
-2. ...
+### Current Behavior:
+<!-- A concise description of what you're experiencing. -->
 
+### Expected Behavior:
+<!-- A concise description of what you expected to happen. -->
 
-### Expected vs. Actual behavior
-<!--- *A clear and concise description of the correct vs. current behavior. If applicable, add screenshots to help explain your problem.* --->
+### Steps To Reproduce:
+<!--
+Example: steps to reproduce the behavior:
+1. In this environment...
+1. With this config...
+1. Run '...'
+1. See error...
+-->
 
-
-### Resources
-<!--- *Add links to related issues, PRs, feature documentation, etc.* --->
+### Anything else:
+<!--
+Links? References? Anything that will give us more context about the issue
+-->
