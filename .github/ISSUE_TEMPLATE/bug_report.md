@@ -1,9 +1,7 @@
 ---
 name: Bug report
 about: Describes a bug
-title: "[BUG] <Bug Title>"
 labels: bug
-assignees: ''
 ---
     
 ### Overview
