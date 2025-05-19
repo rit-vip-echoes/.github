@@ -3,7 +3,7 @@ name: Bug
 about: File a bug/issue
 title: '[BUG] <title>'
 assignees: ''
-issue type: Bug
+issue_type: Bug
 ---
 
 <!--
