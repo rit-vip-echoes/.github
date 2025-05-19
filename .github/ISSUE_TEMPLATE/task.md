@@ -2,7 +2,7 @@
 name: Task
 about: Track general (usually non-dev) project tasks
 assignees: ''
-issue type: Task
+type: Task
 ---
 
 ### Summary
