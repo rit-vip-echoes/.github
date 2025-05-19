@@ -1,7 +1,6 @@
 ---
 name: Feature
 about: A specific feature that needs to be added/modified
-type: feature
 assignees: ''
 ---
 
