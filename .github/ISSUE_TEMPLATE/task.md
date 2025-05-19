@@ -1,14 +1,11 @@
 ---
 name: Task
 about: Track general (usually non-dev) project tasks
-title: "<Task Name>"
 labels: task
-assignees: ''
-
 ---
 
 ## Overview
-<!--- A *very brief* description of what the player will be able to do once this is complete.  --->
+<!--- A *very brief* description of what needs to be done.  --->
 
 #### Resources
 <!--- *Add links to related issues, PRs, feature documentation, etc.* --->
