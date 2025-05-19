@@ -1,10 +1,7 @@
 ---
 name: Feature
 about: A specific feature that needs to be added/modified
-title: "<Issue Title>"
 labels: feature
-assignees: ''
-
 ---
 
 ## Overview
