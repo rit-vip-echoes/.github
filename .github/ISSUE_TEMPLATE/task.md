@@ -1,7 +1,6 @@
 ---
 name: Task
 about: Track general (usually non-dev) project tasks
-type: task
 assignees: ''
 ---
 
