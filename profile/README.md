@@ -3,6 +3,13 @@ The public `.github` repo contains the common GitHub templates & workflows for a
 
 ## Task Management
 
+*Go [here](taskMgmt.md) for details.*
+
 ## Branching
 
+*Go [here](branches.md) for details.*
+
+
 ## Pull Requests
+
+*Go [here](pullRequests.md) for details.*
