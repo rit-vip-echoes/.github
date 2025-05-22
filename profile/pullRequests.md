@@ -4,4 +4,4 @@ For people approving pull requests (usually a lead + one other person, though so
 
 For pull request documentation, a somewhat detailed overview of the addition and the reasoning for said addition should go in the game’s project documentation. The pull request itself should also have documentation of what the feature is and how to test it, along with a link to the devlog.
 
-By default, all *echoes* repos use [pull_request_template.md](pull_request_template.md) as the pull request information template.
+By default, all *echoes* repos use [pull_request_template.md](../pull_request_template.md) as the pull request information template.
