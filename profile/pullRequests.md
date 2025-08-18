@@ -3,7 +3,7 @@
 ## When to make them
 Make a pull request when you’ve finished a feature to the point that it’s ready to be added to the game/shown off in a build demo. (It doesn’t necessarily have to be finished, just working well enough that it doesn’t break the game. Leads should be clear about when a pull request is needed vs. not!)
 
-##  How to Make them
+##  [How To Make Them](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 1. Build the game. Make sure you have a working WebGL build in the branches `docs` folder. [WebGL Instructions](https://docs.unity3d.com/2020.1/Documentation/Manual/webgl-building.html).
 2. By default, all *echoes* repos use [pull_request_template.md](../.github/pull_request_template.md) as the pull request information template.
 4. Ensure the pull request is merging from the feature branch into `dev`.
