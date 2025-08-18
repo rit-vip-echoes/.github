@@ -6,4 +6,5 @@ The public `.github` repo contains the common GitHub templates & workflows for a
 - [Task Management](taskMgmt.md)
 - [Branching](branches.md) 
 - [Pull Requests](pullRequests.md)
+- [Merge Conflicts](mergeConflicts.md)
 - [Unity and Coding Standards](unityStandards.md)
