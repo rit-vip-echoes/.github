@@ -21,7 +21,7 @@ Make a pull request when you’ve finished a feature to the point that it’s re
 - If not approved, make sure to have detailed reasons why so the issues can be fixed.
 
 ## On Approval
-- Once approved, someone should merge the branch into `dev`. Before doing so ensure it is up to date with `dev`.
+- Once approved, someone should merge the branch into `dev`. Before doing so ensure it is up to date with `dev` to avoid potential merge conflicts.
 - Make sure to update the taskboard, moving the task/issue to `done` if not already there. 
 
 
