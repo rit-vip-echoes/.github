@@ -8,6 +8,6 @@
 4. Ensure proper Unity version is installed and can open the cloned Unity project.
 5. Read the indexed documentation for further information.
 ## Index
-- [Branches](../branches.md)
-- [Pull Requests](/pullRequests.md)
-- [Merge Conflicts](/mergeConflicts.md)
+- [Branches](./branches.md)
+- [Pull Requests](./pullRequests.md)
+- [Merge Conflicts](./mergeConflicts.md)
