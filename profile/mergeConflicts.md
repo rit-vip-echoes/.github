@@ -12,7 +12,7 @@
 - [Command Line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 
 ## How to Prevent
-- Follow best branch practices [Branch Managment](./branches.md)
+- Follow best branch practices: [Branch Managment](./branches.md).
 - Communicate well with the team, if everyone knows who is working on what, merge conflicts are less likely to occur.
 - Consistently merge `dev` branch into  working branches, ensuring local work is up to date with the remote.
 - Work in separate test scenes, only add to the main scenes of the game when a PR is created. This will protect scenes from being lost.
