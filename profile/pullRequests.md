@@ -9,7 +9,7 @@ Make a pull request when you’ve finished a feature to the point that it’s re
 4. Ensure the pull request is merging from the feature branch into `dev`.
 5. Document the pull request within the games project documents (not the pull request template)
 6. The pull request itself should also have documentation of what the feature is and how to test it, along with a link to the additions within the project documentation. This can be brief overview tailored to testing if the feature works. It also should link to the proper spots in the project regarding more in-depth information.
-7. Optionally link the pull requestion to its issues (#issueName). This is optional.
+7. Optionally link the pull requestion to its issues (`#issuename`). This is optional.
 8. Request a review from the team lead and up to one other member.
    
 10. Update the task board. Move the relevant tasks/issues to `under review` or similar column in the project board.
