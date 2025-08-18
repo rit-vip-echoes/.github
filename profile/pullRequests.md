@@ -12,7 +12,7 @@ Make a pull request when you’ve finished a feature to the point that it’s re
 7. Optionally link the pull requestion to its issues (#issueName). This is optional.
 8. Request a review from the team lead and up to one other member.
    
-10. Update the task board. Move the relevant tasks/issues to `ready for review` or similar column in the project board.
+10. Update the task board. Move the relevant tasks/issues to `under review` or similar column in the project board.
    
    
 
