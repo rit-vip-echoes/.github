@@ -35,17 +35,19 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
    - [Sprint Schedule](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
 ### Issue Creation
 
-1. Type issue name the bottom dialogue box on the project board.
-2. Select a type of [issue](https://github.com/rit-vip-echoes/.github/edit/main/profile/taskMgmt.md#issue-types)
-3. Then fill out the needed information. Information needed varys depending on issue type.
+1. Type issue name the bottom dialogue box on the project board, then hit `enter`.
+   <img width="1891" height="155" alt="image" src="https://github.com/user-attachments/assets/ca4f2129-780e-4b3a-b860-cb92915f4724" />
+3. Select a type of [issue](https://github.com/rit-vip-echoes/.github/edit/main/profile/taskMgmt.md#issue-types)
+4. Then fill out the needed information. Information needed varys depending on issue type.
+5. Add additional organizational information to each task.
 
-   - Summary
-   - Resources
-   - Subtasks
-   - Test Criteria
-   - 
+   - Assignee : Person(s) working on the task.
+   - Label(optional) : Additional label to assist with high level task understanding (ie. `enhancement`)
+   - Milestone: Select the Milestone this task should go under. `None` is ok if the task is not yet ready for a sprint. 
 
-<img width="1891" height="155" alt="image" src="https://github.com/user-attachments/assets/ca4f2129-780e-4b3a-b860-cb92915f4724" />
+
+
+
 
 <img width="790" height="763" alt="Screenshot 2025-08-19 160710" src="https://github.com/user-attachments/assets/82460d20-1cb3-4f08-8918-a67fd636eabc" />
 
