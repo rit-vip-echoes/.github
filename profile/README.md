@@ -4,6 +4,7 @@
 The public `.github` repo contains the common GitHub templates & workflows for all echoes projects.
 - [Task Management](taskMgmt.md)
 - [Unity and Coding Standards](unityStandards.md)
+- [Art and Aesthetics Standards](assetStandards.md)
 - [Building to WebGL](webGLBuild.md)
 - [Version Control](versionControl.md)
   - [Branching](branches.md) 
