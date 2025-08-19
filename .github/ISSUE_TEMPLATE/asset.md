@@ -2,7 +2,22 @@
 name: Asset
 about: Track information related to a needed asset.
 assignees: ''
-type: Asset
+body:
+- type: dropdown
+  id: download
+  attributes:
+    label: Type of Asset
+    options:
+      - 2D Sprite (UI)
+      - 2D Sprite (Game)
+      - 3D Model
+      - Texture
+      - Animation
+      - Music
+      - SFX
+      - Other
+  validations:
+    required: true
 ---
 
 ### Summary
