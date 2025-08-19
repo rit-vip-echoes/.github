@@ -48,7 +48,7 @@ Maintain consistent communication and show work often. This will make sure every
 
 Once the asset is complete, export the asset to the correct  `raw` file format and the needed game file format (See [File Information](#file-information)) and make sure that naming conventions are followed (See [Naming Conventions](#naming-conventions)). 
 
-Put the asset in the ***echoes*** **Drive \> Projects \> Game Name \> Asset Folder** or ***echoes*** **Drive \> Web \> RIT Official VIP Website Content \> Asset Folder**. 
+Put the asset in the [***echoes*** Drive](https://drive.google.com/drive/u/2/folders/0AKJkHG-T_wmXUk9PVA) \> [Projects](https://drive.google.com/drive/u/2/folders/1H5WF9GUf0kaibstQ_3ajsFBKM58-z2UL) \> Game Name \> Asset Folder** or [***echoes*** Drive](https://drive.google.com/drive/u/2/folders/0AKJkHG-T_wmXUk9PVA) \> [Web](https://drive.google.com/drive/u/2/folders/1gLqBg006DrH1qzYRXExL-H6Euv_ABFWK) \> [Asset Folder](https://drive.google.com/drive/u/2/folders/1aPbyyMSdQ1nuobCzdfbmlN9BGyI3s41F). 
 Create new folders when needed for useful organization.
 	
 
