@@ -22,20 +22,23 @@ Task managment will be undertaken through Github [Projects](https://docs.github.
 Sprints will need to be setup to allow for the proper per sprint views of tasks. These are setup externally to the project inside of the repository.
 
 1. In the repository, navigate to the `Issues` tab.
+   
    <img width="1757" height="805" alt="image" src="https://github.com/user-attachments/assets/2cf2a203-6d96-496d-897c-024b05f4514d" />
-2. Select `Milestones` in the top right.
-3. Select `Create a milestone`
+   
+3. Select `Milestones` in the top right.
+4. Select `Create a milestone`
   
 
-4. Add information
+5. Add information
   <img width="1378" height="635" alt="image" src="https://github.com/user-attachments/assets/14c91b52-50ab-4c19-81d7-81067ca58227" />
-5. If desired, repeat for every planned sprint (7 in total).
+6. If desired, repeat for every planned sprint (7 in total).
 
 
    - [Sprint Schedule](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
 ### Issue Creation
 
 1. Type issue name the bottom dialogue box on the project board, then hit `enter`.
+   
    <img width="1891" height="155" alt="image" src="https://github.com/user-attachments/assets/ca4f2129-780e-4b3a-b860-cb92915f4724" />
 3. Select a type of [issue](https://github.com/rit-vip-echoes/.github/edit/main/profile/taskMgmt.md#issue-types)
 4. Then fill out the needed information. Information needed varys depending on issue type.
