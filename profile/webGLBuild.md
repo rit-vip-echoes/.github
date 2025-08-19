@@ -19,7 +19,8 @@
    <img width="1531" height="997" alt="image" src="https://github.com/user-attachments/assets/13173774-60c3-4b6a-a346-826ff8ed2a65" />
 
 ## Common Issues
-WebGL can have tons of problems building successfully. 
+WebGL can have tons of problems building/running successfully.
+If a problem comes up and is not listed, add it below.
 
 | Problem | Solutions |
 |---------|-----------|
