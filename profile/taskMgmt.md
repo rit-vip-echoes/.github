@@ -29,7 +29,8 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
 
 4. Add information
   <img width="1378" height="635" alt="image" src="https://github.com/user-attachments/assets/14c91b52-50ab-4c19-81d7-81067ca58227" />
-5. If desired, repeat for every planned sprint (7 in total). [Sprint Schedule](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
+5. If desired, repeat for every planned sprint (7 in total).
+       [Sprint Schedule](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
 
 
 ## Views
