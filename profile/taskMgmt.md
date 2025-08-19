@@ -30,8 +30,24 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
 4. Add information
   <img width="1378" height="635" alt="image" src="https://github.com/user-attachments/assets/14c91b52-50ab-4c19-81d7-81067ca58227" />
 5. If desired, repeat for every planned sprint (7 in total).
-       [Sprint Schedule](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
 
+
+   - [Sprint Schedule](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
+### Issue Creation
+
+1. Type issue name the bottom dialogue box on the project board.
+2. Select a type of [issue](https://github.com/rit-vip-echoes/.github/edit/main/profile/taskMgmt.md#issue-types)
+3. Then fill out the needed information. Information needed varys depending on issue type.
+
+   - Summary
+   - Resources
+   - Subtasks
+   - Test Criteria
+   - 
+
+<img width="1891" height="155" alt="image" src="https://github.com/user-attachments/assets/ca4f2129-780e-4b3a-b860-cb92915f4724" />
+
+<img width="790" height="763" alt="Screenshot 2025-08-19 160710" src="https://github.com/user-attachments/assets/82460d20-1cb3-4f08-8918-a67fd636eabc" />
 
 ## Views
 ### By Status
