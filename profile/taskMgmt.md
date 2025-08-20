@@ -70,9 +70,13 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
 
 
 # Issue Types
+Each issue type has its own template information to fill out. These are not always required pieces of information, use as much or as little as needed.
 
 ## Tasks
+Tasks are general non-dev project tasks, and smaller dev tasks that don't qualify as a full feature. 
 
 ## Features
+A feature that needs to be added or modified for the project.
 
 ## Bugs
+A bug, use this to track issues and how they are reproduced. 
