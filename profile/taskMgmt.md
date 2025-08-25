@@ -34,7 +34,7 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
 6. If desired, repeat for every planned sprint (7 in total).
 
 
-   - [Sprint Schedule](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
+   - [Semester Sprint Schedule (MyCourses)](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
 ### Issue Creation
 
 1. Type issue name the bottom dialogue box on the project board, then hit `enter`.
