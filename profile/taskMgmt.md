@@ -41,18 +41,25 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
    
    <img width="1891" height="155" alt="image" src="https://github.com/user-attachments/assets/ca4f2129-780e-4b3a-b860-cb92915f4724" />
 3. Select a type of [issue](https://github.com/rit-vip-echoes/.github/edit/main/profile/taskMgmt.md#issue-types)
-4. Then fill out the needed information. Information needed varys depending on issue type.
+4. Then fill out the needed information. Information needed varies depending on issue type.
 5. Add additional organizational information to each task.
 
    - Assignee : Person(s) working on the task.
    - Label(optional) : Additional label to assist with high level task understanding (ie. `enhancement`)
    - Milestone: Select the Milestone this task should go under. `None` is ok if the task is not yet ready for a sprint. 
 
-
-
-
-
 <img width="790" height="763" alt="Screenshot 2025-08-19 160710" src="https://github.com/user-attachments/assets/82460d20-1cb3-4f08-8918-a67fd636eabc" />
+
+### Status Deletion
+1. Navigate to your project.
+2. In the top-right, click  to open the menu.
+<img width="454" height="468" alt="Screenshot 2025-09-07 185343" src="https://github.com/user-attachments/assets/563f291b-89d9-4eca-9f00-d7713f374630" />
+4. In the menu, click  Settings to access the project settings.
+5. Navigate to the status section. 
+6. Remove any uneeded statuses.
+<img width="1792" height="761" alt="Screenshot 2025-09-07 185407" src="https://github.com/user-attachments/assets/23ee85a4-aa2b-40ab-bd6b-2d42d4593b09" />
+
+
 
 ## Views
 ### By Status
