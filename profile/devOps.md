@@ -37,7 +37,7 @@ jobs:
           fetch-depth: 0  # Important: fetches all history for tags
           lfs: true
       
-      # Simplified version for game jam
+      # Simplified version 
       - name: Generate Version
         id: version
         run: |
@@ -119,7 +119,7 @@ jobs:
           
           echo "Version files created successfully"
       
-      # Prepare WebGL for itch.io
+      # Prepare WebGL
       - name: Prepare WebGL Build
         if: matrix.targetPlatform == 'WebGL'
         run: |
