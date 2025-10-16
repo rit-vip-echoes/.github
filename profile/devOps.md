@@ -30,18 +30,18 @@ jobs:
       fail-fast: false
       matrix:
         targetPlatform:
-          - WebGL  # Essential for itch.io
+          - WebGL  
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Important: fetches all history for tags
           lfs: true
       
-      # Simplified version 
+      # Simplified version creation
       - name: Generate Version
         id: version
         run: |
-          # Simple versioning for game jam - uses run number
+          # Simple versioning - uses run number
           VERSION="1.0.${{ github.run_number }}"
           
           # Get build metadata
@@ -58,7 +58,7 @@ jobs:
           
           echo "Building version: $VERSION (build #${{ github.run_number }})"
       
-      # Cache for faster builds during jam
+      # Cache for faster builds
       - uses: actions/cache@v3
         with:
           path: Sample2DProject/Library
@@ -125,11 +125,9 @@ jobs:
         run: |
           # Create index.html wrapper if needed
           if [ -f "build/WebGL/WebGL/index.html" ]; then
-            echo "WebGL build prepared for itch.io upload"
-            # Optionally modify index.html for better itch.io integration
+            echo "WebGL build prepared"
           fi
-      
-      # Upload artifacts with shorter names for game jam
+
       - uses: actions/upload-artifact@v4
         with:
           name: Sample2DProject-${{ matrix.targetPlatform }}-b${{ github.run_number }}
