@@ -8,13 +8,21 @@ Discord integration can provide valuable messages that trigger on certain GitHub
 [Discord WebHook Tutorial](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 
 ## Autobuild for WebGL
+1. Add this Workflow to your github repo `.github`->`workflows` The file extension should be `.yml`.
+2. Modify the workflow, swapping any instance of `Sample2DProject` your projects name.
+3. Add needed information to github secrets. Navigate to Repository Settings -> Secrets -> Actions
+   <img width="1600" height="470" alt="image" src="https://github.com/user-attachments/assets/9868c7f4-8c9a-4d6d-9673-08f59585c80b" />
+5. Upon a push to `main` or `dev`, a workflow should start.
+6. Once the workflow is finish, navigate to the `Actions` tab, under the summary, the build should be downloadable. If the workflow has failed, you can see which step failed by clicking on jobs.
+   <img width="1912" height="750" alt="image" src="https://github.com/user-attachments/assets/a1ff85f0-0f60-4c81-bbbe-53a75772670c" />
+
 ```
 name: Build project
 on: 
   push:
     branches: [ main, dev ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, dev ]
   # trigger on tagged push
   create:
     tags:
