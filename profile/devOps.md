@@ -3,7 +3,6 @@ Work in progress, come back later.
 
 
 ## GitHub Discord Integration
-Discord integration can provide valuable messages that trigger on certain GitHub actions.
 
 [Discord WebHook Tutorial](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 
