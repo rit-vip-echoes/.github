@@ -1,7 +1,4 @@
 # DevOps
-Work in progress, come back later. 
-
-
 ## GitHub Discord Integration
 
 [Discord WebHook Tutorial](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
