@@ -6,6 +6,7 @@ The public `.github` repo contains the common GitHub templates & workflows for a
 - [Unity and Coding Standards](unityStandards.md)
 - [Art and Aesthetics Standards](assetStandards.md)
 - [Building to WebGL](webGLBuild.md)
+- [Development Operations](devOps.md)
 - [Version Control](versionControl.md)
   - [Branching](branches.md) 
   - [Pull Requests](pullRequests.md)
