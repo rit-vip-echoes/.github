@@ -64,5 +64,5 @@ It is important to upload the raw files into the drive so that other members are
 | 2D Raster Image | .psd | .png |
 | 2D Vector Image | .svg | .png and/or .svg |
 | 2D Pixel Art | .ase | .png |
-| 3D Model | .mb or .blend | .fbx |
+| 3D Model | .ma or .blend | .fbx |
 | Audio | Zipped up project file | .wav |
