@@ -22,9 +22,9 @@ AI may be used to generate keywords and ideas for assets. But for legal and ethi
 
 ## Naming Conventions 
 
-Naming conventions are very important as they help keep large-scale projects organized. This means that all teams across the project should use these conventions when naming their assets.
+Naming conventions are very important as they help keep large-scale projects organized. This means that all members across the project should use these conventions when naming their assets.
 
-Consult with your team on naming conventions. A standard naming convention is to use camel case ex. `HereIsAName`. Furthermore, the type of asset could be denoted as a prefix for ease of engine use such as `Tex_Name` for a texture. In the end, it's up to the teams to determine the standard naming conventions they will use. 
+Consult with your team on naming conventions, and make sure they are documented for future artists.
 
 ## Art Pipeline 
 
