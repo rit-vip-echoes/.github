@@ -59,6 +59,9 @@ Work in prefabs when possible. Using prefabs will reduce changes to a scene and 
 
 When updating prefabs within a scene, make sure to apply changes to the prefab if you wish for edits to persist to the prefab. 
 
+## **Scriptable Objects [Documentation]([url](https://docs.unity3d.com/6000.2/Documentation/Manual/class-ScriptableObject.html))
+Scriptable Objects can be a useful tool for many different systems with development, most often used to store data. 
+
 ## **Test Scenes**
 
 Each developer should have a folder with their own test scenes (some teams have test scenes organized by sprint/feature instead). Once their feature works in the test environment, it can then be moved into the main scene(s). Make sure your branch is updated to the latest version of `Dev`/ `Main` before moving new objects/features into the main scene. 
