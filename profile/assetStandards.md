@@ -9,12 +9,6 @@
 
 [File Information](#file-information)
 
-## Resources
-[Aesthetics: Art & Asset Softwares](https://docs.google.com/document/d/1MNavkpXOygKtGuOJaoWBSeViJ15xxJjtohfYlFMrH8o/edit#heading=h.uqleju9r1i7q)
-
-[Aesthetics: Music Software and Composition Guide](https://docs.google.com/document/d/19HEvmC8DD8yydG_SIaQAae3PHa3fOF3AO5Jn6QQ-52I/edit#heading=h.pdw337xzz9y)
-
-[Branding Guidlines](https://docs.google.com/document/d/12TpMxFRPnAxTtqIhqanuayRmCgFmaLlivKxt0iqhiMU/edit?tab=t.kow94o1vljt7)
 
 ## AI Usage
 
