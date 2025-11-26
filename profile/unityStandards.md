@@ -59,7 +59,7 @@ Work in prefabs when possible. Using prefabs will reduce changes to a scene and 
 
 When updating prefabs within a scene, make sure to apply changes to the prefab if you wish for edits to persist to the prefab. 
 
-## **Scriptable Objects** [Documentation]([url](https://docs.unity3d.com/6000.2/Documentation/Manual/class-ScriptableObject.html))
+## **Scriptable Objects \[[Documentation](https://docs.unity3d.com/6000.2/Documentation/Manual/class-ScriptableObject.html)\]** 
 Scriptable Objects can be a useful tool for many different systems with development, most often used to store data. 
 
 ## **Test Scenes**
