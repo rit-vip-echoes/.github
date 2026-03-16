@@ -65,4 +65,4 @@ It is important to upload the raw files into the drive so that other members are
 | 2D Vector Image | .svg | .png and/or .svg |
 | 2D Pixel Art | .ase | .png |
 | 3D Model | .ma or .blend | .fbx |
-| Audio | Zipped up project file | .wav |
+| Audio | Zipped up project file | .mp4, .aac, and/or .mp3 |
