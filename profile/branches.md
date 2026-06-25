@@ -26,3 +26,4 @@ Naming conventions don’t need to be the standard across all teams. It's import
 Delete old branches when one of the right criteria are met (no deleting `main` or `dev`):
 - Branch is a few weeks out of date with the `main` branch 
 - Branch contains broken versions of the game and won't be revisited
+- PR has been merged and this branch is done for good.
