@@ -8,7 +8,11 @@
 <img width="1904" height="604" alt="Screenshot 2025-08-18 201828" src="https://github.com/user-attachments/assets/4edbe606-2bd4-46db-95d6-7161b9a82720" />
 
 5. Update `Player Settings`:
-   - Under `Resolution and Presentation` set Default Canvas Width to 1080 and Default Canvas Height to 720 (or use a similarly sized aspect ratio).
+   - Set the `Company Name` to: "echoes VIP @ RIT"
+   - Set the `Product Name` to the game title
+   - Under `Resolution and Presentation`:
+     - Set Default Canvas Width to 1080 and Default Canvas Height to 720 (or use a similarly sized aspect ratio).
+     - Set the WebGL template to Minimal (or, better yet, consider using [this custom minimal template](https://github.com/seleb/Better-Minimal-WebGL-Template)).
    - Under publishing settings, set `Compression Format` to `Disabled`.
 
 7. Select `Build` or `Build and Run`.
