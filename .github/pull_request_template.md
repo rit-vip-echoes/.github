@@ -7,9 +7,10 @@
 - ...
 
 ## Issues to Test
-<!--- Link to GitHub project issues covered by this PR that need to be verified --->
+<!--- Link to GitHub project issues covered by this PR that need to be verified. If commits along the way have been tied to issues, then the PR will automatically link to them. If not, this needs to be uncommented and filled out manually.
 - [ ] ...
-
+ --->
+ 
 ## Additional Tests
 <!--- Describe any other tests that should be run --->
 
