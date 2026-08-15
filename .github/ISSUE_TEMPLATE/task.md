@@ -5,10 +5,9 @@ assignees: ''
 type: Task
 ---
 
-### Summary
-<!-- A *very brief* description of what needs to be done. -->
+<!-- Start with a *very brief* description of what needs to be done. -->
+Summary
 
-### Resources
 <!-- *Add links to related issues, documentation, etc.* -->
 - ....
 - ....
