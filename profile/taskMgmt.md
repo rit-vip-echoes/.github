@@ -1,9 +1,10 @@
 # Overview
-Keeping track of progress, planning and managing deadlines, and documentation will be handled in 3 key areas.
+Keeping track of progress, planning and managing deadlines, and documentation will be handled in 4 key areas.
 
 - Projects handles the tracking of tasks, deadlines and sprint planning.
 - A repository Wiki page will store technical documentation related to the architecture and execution of the game right in the repository for easy access.
-- A GDD document will store information related to the actual design of the game, as well as meeting notes and playtest feedback.
+- A GDD document will store information related to the actual design of the game, as well as playtest feedback.
+- A second document will store meeting agendas and notes.
 
 High Level Timeline
     <br>`Sprint Plan adds feature` -> `Issue for feature added to taskboard` -> `Work on the feature` -> `Finished and tested feature` -> `Documentation added to Wiki and GDD Doc` -> `Create Pull Request` -> `Approved Pull Request closes issue and merges feature`
