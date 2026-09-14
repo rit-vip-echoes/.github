@@ -10,23 +10,37 @@ High Level Timeline
 
 
 # Sprint Planning
-Before each sprint, teams will plan out a set of features and tasks related to a sprint goal, based on a project backlog. The backlog is a cumulation of higher level tasks that are known to be needed. These broader tasks inform the additions/refinments to the task board each sprint.
+Before each sprint, teams will plan out a set of features and tasks related to a sprint goal, based on a project backlog. The backlog is an accumulation of higher level tasks that are known to be needed. These broader tasks inform the additions/refinements to the task board each sprint.
 
 Features/tasks added to the current sprint should be detailed and actionable. If a task is not yet actionable, not enough information is known and instead a task to research should be used. 
 
 # Projects
 Task managment will be undertaken through Github [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). 
 
+These are project boards, where teams will keep track of their current, planned and completed tasks by organizing them into separate columns. Board organization differs slightly team by team, but generally all teams have columns for a Project Backlog, a Sprint Backlog, In Progress Tasks, Tasks Under Review, Completed Tasks, and a Task Graveyard.
+ -    Project Backlog: used for tracking all tasks to be completed at some point over the project. When a task is created, this is where it first goes.
+ -    Sprint Backlog: Tasks to be completed over the current sprint. Tasks are taken from the project backlog at the beginning of the sprint and placed here.
+ -    In Progress: Tasks that are currently being worked on by someone. 
+ -    Under Review: Completed tasks that are awaiting a PR or review from a lead.
+ -    Completed: Tasks that have been finished. THIS INCLUDES DOCUMENTATION! Please document your code before considering it complete.
+ -    Graveyard: Tasks that were created but for one reason or another the team decided were not necessary. Placed here for posterity's sake, in case there's ever a need to reference an abandoned task. 
+
+It's important to regularly update the project board, not just for your team's sake but for the production team and other leads to be able to keep track of progress across teams. The producers and Erika should be able to open up the project board at any given time and have a comprehensive understanding of where the project is at and what every team member is working on at a given time.
+
 ## Setup
-### Sprints
-Sprints will need to be setup to allow for the proper per sprint views of tasks. These are setup externally to the project inside of the repository.
+### Milestones
+Milestones are effectively what GitHub calls Sprints, and we'll utilize them as Sprints within echoes. Milestones are how we separate out a semester into iterative 'chunks', in which teams set development goals to achieve during a Sprint before working for roughly two weeks on developing and implementing their planned features before testing and receiving feedback through public and private playtests. At the end of a Sprint, teams meet up and reflect on the concluded sprint; what worked, what didn't work, what they should start doing and what they should stop doing. This reflection period is important; its where teams will reevaluate their approach to development and allow for course correction should they encounter issues or roadblocks. Afterwards, based on feedback from testing, the team sets new goals for the next Sprint and they repeat the entire process. 
+
+Agile Sprints are a common production methodology practiced throughout the games industry; they allow for quick iteration and rapid prototyping. If you're an underclassman, you'll likely encounter Agile Sprints in the coming semesters, and if you're an upperclassman you've probably already encountered Agile Sprints and should be getting more comfortable with them.
+
+Milestones will need to be setup to allow for the proper per sprint views of tasks. These are setup externally to the project inside of the repository.
 
 1. In the repository, navigate to the `Issues` tab.
    
-   <img width="1757" height="805" alt="image" src="https://github.com/user-attachments/assets/2cf2a203-6d96-496d-897c-024b05f4514d" />
+   <img width="2877" height="1565" alt="Screenshot 2026-09-14 130845" src="https://github.com/user-attachments/assets/7b27ed38-e6eb-4047-962b-cfffd8adffd5" />
    
-3. Select `Milestones` in the top right.
-4. Select `Create a milestone`
+3. Select `Milestones` in the bottom left.
+4. Select the green `New milestone` box in the upper right hand corner.
   
 
 5. Add information
@@ -53,10 +67,13 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
 ### Status Deletion
 1. Navigate to your project.
 2. In the top-right, click  to open the menu.
+
 <img width="454" height="468" alt="Screenshot 2025-09-07 185343" src="https://github.com/user-attachments/assets/563f291b-89d9-4eca-9f00-d7713f374630" />
+
 4. In the menu, click  Settings to access the project settings.
 5. Navigate to the status section. 
 6. Remove any uneeded statuses.
+
 <img width="1792" height="761" alt="Screenshot 2025-09-07 185407" src="https://github.com/user-attachments/assets/23ee85a4-aa2b-40ab-bd6b-2d42d4593b09" />
 
 
@@ -79,11 +96,22 @@ Sprints will need to be setup to allow for the proper per sprint views of tasks.
 # Issue Types
 Each issue type has its own template information to fill out. These are not always required pieces of information, use as much or as little as needed.
 
-## Tasks
-Tasks are general non-dev project tasks, and smaller dev tasks that don't qualify as a full feature. 
+### Tasks
+Tasks are general non-dev project tasks, and smaller dev tasks that don't qualify as a full feature. Examples would be minor art assets and system overhauls, as well as process documentation. 
 
-## Features
-A feature that needs to be added or modified for the project.
+### Features
+A feature that needs to be added or modified for the project. Any kind of new player interaction would fall under this category; this includes UI systems, mechanics, controls, major art assets, etc. 
 
-## Bugs
-A bug, use this to track issues and how they are reproduced. 
+### Bugs
+A bug, use this to track issues and how they are reproduced. These should be added to the project board in the meeting after any playtest, in order to make sure any bugs are not forgotten about and persist throughout the project far longer than they should.
+
+It's very important that bugs, upon completion, receive extensive testing to make sure the bug was fully fixed and that no new bugs were created in the process. Ideally, when fixing a bug you do not create new bugs. However, if a bugfix is essential enough that its better to have a buggy fix to a bugfix, then you'll need to add the new bugs to the board as well. This should be a conversation with the team, not an individual decision to create more issues than you've solved. 
+
+## Completing a Task
+As echoes consists of students of a variety of years and disciplines, it’s important to have a mutual understanding of what is considered “done” for a task. For our purposes, a task must meet these criteria before it can be considered done and categorized as such.
+
+1. The original task’s description has been fully completed/realized. 
+2. Of presentable quality, no major bugs or oversights related to the task.
+3. Progress on the task has been properly documented in all proper places (GitHub taskboard, GitHub wiki, GDD, etc). 
+4. Reviewed and approved by other team members. 
+
