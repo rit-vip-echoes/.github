@@ -10,28 +10,29 @@ High Level Timeline
 
 
 # Sprint Planning
-Before each sprint, teams will plan out a set of features and tasks related to a sprint goal, based on a project backlog. The backlog is an accumulation of higher level tasks that are known to be needed. These broader tasks inform the additions/refinements to the task board each sprint.
+Before each Sprint, teams will plan out a set of features and tasks related to a Sprint goal, based on a project backlog. The backlog is an accumulation of higher level tasks that are known to be needed. These broader tasks inform the additions/refinements to the task board each Sprint.
 
-Features/tasks added to the current sprint should be detailed and actionable. If a task is not yet actionable, not enough information is known and instead a task to research should be used. 
+Features/tasks added to the current sprint should be detailed and actionable. If a task is not yet actionable, not enough information is known and instead a task to research should be used.
 
 # Projects
-Task managment will be undertaken through Github [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). 
+Task management will be undertaken through GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). 
 
 These are project boards, where teams will keep track of their current, planned and completed tasks by organizing them into separate columns. Board organization differs slightly team by team, but generally all teams have columns for a Project Backlog, a Sprint Backlog, In Progress Tasks, Tasks Under Review, Completed Tasks, and a Task Graveyard.
  -    Project Backlog: used for tracking all tasks to be completed at some point over the project. When a task is created, this is where it first goes.
- -    Sprint Backlog: Tasks to be completed over the current sprint. Tasks are taken from the project backlog at the beginning of the sprint and placed here.
+ -    Sprint Backlog: Tasks to be completed over the current Sprint. Tasks are taken from the project backlog at the beginning of the Sprint and placed here.
  -    In Progress: Tasks that are currently being worked on by someone. 
  -    Under Review: Completed tasks that are awaiting a PR or review from a lead.
  -    Completed: Tasks that have been finished. THIS INCLUDES DOCUMENTATION! Please document your code before considering it complete.
+ -    Blocked: Tasks that cannot be worked on due to reliance on other tasks or other external factors.
  -    Graveyard: Tasks that were created but for one reason or another the team decided were not necessary. Placed here for posterity's sake, in case there's ever a need to reference an abandoned task. 
 
 It's important to regularly update the project board, not just for your team's sake but for the production team and other leads to be able to keep track of progress across teams. The producers and Erika should be able to open up the project board at any given time and have a comprehensive understanding of where the project is at and what every team member is working on at a given time.
 
 ## Setup
 ### Milestones
-Milestones are effectively what GitHub calls Sprints, and we'll utilize them as Sprints within echoes. Milestones are how we separate out a semester into iterative 'chunks', in which teams set development goals to achieve during a Sprint before working for roughly two weeks on developing and implementing their planned features before testing and receiving feedback through public and private playtests. At the end of a Sprint, teams meet up and reflect on the concluded sprint; what worked, what didn't work, what they should start doing and what they should stop doing. This reflection period is important; its where teams will reevaluate their approach to development and allow for course correction should they encounter issues or roadblocks. Afterwards, based on feedback from testing, the team sets new goals for the next Sprint and they repeat the entire process. 
+Milestones are effectively what GitHub calls Sprints, and we'll utilize them as Sprints within echoes. Milestones are how we separate out a semester into iterative 'chunks', in which teams set development goals to achieve during a Sprint before working for roughly two weeks on developing and implementing their planned features before testing and receiving feedback through public and private playtests. At the end of a Sprint, teams meet up and reflect on the concluded sprint; what worked, what didn't work, what they should start doing and what they should stop doing. This reflection period, also known as a Sprint Retrospective, is important; it's where teams will reevaluate their approach to development and allow for course correction should they encounter issues or roadblocks. Afterwards, based on feedback from testing, the team sets new goals for the next Sprint and they repeat the entire process. 
 
-Agile Sprints are a common production methodology practiced throughout the games industry; they allow for quick iteration and rapid prototyping. If you're an underclassman, you'll likely encounter Agile Sprints in the coming semesters, and if you're an upperclassman you've probably already encountered Agile Sprints and should be getting more comfortable with them.
+Sprints are a common production methodology practiced throughout the games industry; they allow for quick iteration and rapid prototyping. If you're an underclassman, you'll likely encounter Sprints in the coming semesters, and if you're an upperclassman you've probably already encountered Sprints and should be getting more comfortable with them.
 
 Milestones will need to be setup to allow for the proper per sprint views of tasks. These are setup externally to the project inside of the repository.
 
