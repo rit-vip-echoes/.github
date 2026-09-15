@@ -30,11 +30,11 @@ It's important to regularly update the project board, not just for your team's s
 
 ## Setup
 ### Milestones
-Milestones are effectively what GitHub calls Sprints, and we'll utilize them as Sprints within echoes. Milestones are how we separate out a semester into iterative 'chunks', in which teams set development goals to achieve during a Sprint before working for roughly two weeks on developing and implementing their planned features before testing and receiving feedback through public and private playtests. At the end of a Sprint, teams meet up and reflect on the concluded sprint; what worked, what didn't work, what they should start doing and what they should stop doing. This reflection period, also known as a Sprint Retrospective, is important; it's where teams will reevaluate their approach to development and allow for course correction should they encounter issues or roadblocks. Afterwards, based on feedback from testing, the team sets new goals for the next Sprint and they repeat the entire process. 
+Milestones are effectively what GitHub calls Sprints, and we'll utilize them as Sprints within echoes. Milestones are how we separate out a semester into iterative 'chunks', in which teams set development goals to achieve during a Sprint. Teams work for two weeks on developing and implementing their planned features before testing and receiving feedback through public and private playtests. At the end of a Sprint, teams meet to reflect on the concluded Sprint; what worked, what didn't work, what they should start doing and what they should stop doing. This reflection period, also known as a Sprint Retrospective, is where teams will reevaluate their approach to development and allow for course correction should they encounter issues or roadblocks. Afterwards, based on feedback from testing, the team sets new goals for the next Sprint, then repeating the entire process. 
 
 Sprints are a common production methodology practiced throughout the games industry; they allow for quick iteration and rapid prototyping. If you're an underclassman, you'll likely encounter Sprints in the coming semesters, and if you're an upperclassman you've probably already encountered Sprints and should be getting more comfortable with them.
 
-Milestones will need to be setup to allow for the proper per sprint views of tasks. These are setup externally to the project inside of the repository.
+Milestones will need to be setup to allow for the proper per-Sprint views of tasks. These are setup externally to the project inside of the repository.
 
 1. In the repository, navigate to the `Issues` tab.
    
@@ -46,28 +46,28 @@ Milestones will need to be setup to allow for the proper per sprint views of tas
 
 5. Add information
   <img width="1378" height="635" alt="image" src="https://github.com/user-attachments/assets/14c91b52-50ab-4c19-81d7-81067ca58227" />
-6. If desired, repeat for every planned sprint (7 in total).
+6. Repeat for every planned Sprint.
 
 
    - [Semester Sprint Schedule (MyCourses)](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
 ### Issue Creation
 
-1. Type issue name the bottom dialogue box on the project board, then hit `enter`.
+1. Type the issue name in the bottom dialogue box on the project board, then hit `enter`.
    
    <img width="1891" height="155" alt="image" src="https://github.com/user-attachments/assets/ca4f2129-780e-4b3a-b860-cb92915f4724" />
 3. Select a type of [issue](https://github.com/rit-vip-echoes/.github/edit/main/profile/taskMgmt.md#issue-types)
-4. Then fill out the needed information. Information needed varies depending on issue type.
+4. Then fill out the needed information. Information needed varies depending on its type.
 5. Add additional organizational information to each task.
 
    - Assignee : Person(s) working on the task.
    - Label(optional) : Additional label to assist with high level task understanding (ie. `enhancement`)
-   - Milestone: Select the Milestone this task should go under. `None` is ok if the task is not yet ready for a sprint. 
+   - Milestone: Select the Milestone this task should go under. `None` is ok if the task is not yet ready for a Sprint. 
 
 <img width="790" height="763" alt="Screenshot 2025-08-19 160710" src="https://github.com/user-attachments/assets/82460d20-1cb3-4f08-8918-a67fd636eabc" />
 
 ### Status Deletion
 1. Navigate to your project.
-2. In the top-right, click  to open the menu.
+2. In the top-right, click the three dots icon to open the menu.
 
 <img width="454" height="468" alt="Screenshot 2025-09-07 185343" src="https://github.com/user-attachments/assets/563f291b-89d9-4eca-9f00-d7713f374630" />
 
@@ -95,7 +95,7 @@ Milestones will need to be setup to allow for the proper per sprint views of tas
 
 
 # Issue Types
-Each issue type has its own template information to fill out. These are not always required pieces of information, use as much or as little as needed.
+Each issue type has its own template information to fill out. These are not always required pieces of information, so use as much or as little of the templates as needed.
 
 ### Tasks
 Tasks are general non-dev project tasks, and smaller dev tasks that don't qualify as a full feature. Examples would be minor art assets and system overhauls, as well as process documentation. 
@@ -104,15 +104,15 @@ Tasks are general non-dev project tasks, and smaller dev tasks that don't qualif
 A feature that needs to be added or modified for the project. Any kind of new player interaction would fall under this category; this includes UI systems, mechanics, controls, major art assets, etc. 
 
 ### Bugs
-A bug, use this to track issues and how they are reproduced. These should be added to the project board in the meeting after any playtest, in order to make sure any bugs are not forgotten about and persist throughout the project far longer than they should.
+Use bugs to track issues and how they are reproduced. These should be added to the project board in the meeting after any playtest to make sure any bugs are not forgotten about and persist throughout the project far longer than they should.
 
 It's very important that bugs, upon completion, receive extensive testing to make sure the bug was fully fixed and that no new bugs were created in the process. Ideally, when fixing a bug you do not create new bugs. However, if a bugfix is essential enough that its better to have a buggy fix to a bugfix, then you'll need to add the new bugs to the board as well. This should be a conversation with the team, not an individual decision to create more issues than you've solved. 
 
 ## Completing a Task
-As echoes consists of students of a variety of years and disciplines, it’s important to have a mutual understanding of what is considered “done” for a task. For our purposes, a task must meet these criteria before it can be considered done and categorized as such.
+As echoes consists of students at a variety of years and disciplines, it’s important to have a mutual understanding of what is considered “done” for a task. For our purposes, a task must meet these criteria before it can be considered done and categorized as such:
 
 1. The original task’s description has been fully completed/realized. 
 2. Of presentable quality, no major bugs or oversights related to the task.
-3. Progress on the task has been properly documented in all proper places (GitHub taskboard, GitHub wiki, GDD, etc). 
+3. Progress on the task has been properly documented in all proper places (GitHub task board, GitHub wiki, GDD, etc). 
 4. Reviewed and approved by other team members. 
 
