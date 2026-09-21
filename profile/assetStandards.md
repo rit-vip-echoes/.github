@@ -34,11 +34,11 @@ They will create a new issue on the project board with the relevant information 
 
 Team members will work to either create or find a relevant asset. If the asset is found, ensure it has the proper license to be used. 
 
-### 4. **Communicate with team(s)**
+### 3. **Communicate with team(s)**
 
 Maintain consistent communication and show work often. This will make sure everyone is happy with the asset's direction and it aligns with what was expected. 
 
-### 5. **Upload to Drive**
+### 4. **Upload to Drive**
 
 Once the asset is complete, export the asset to the correct  `raw` file format and the needed game file format (See [File Information](#file-information)) and make sure that naming conventions are followed (See [Naming Conventions](#naming-conventions)). 
 
@@ -51,7 +51,7 @@ Create new folders when needed for useful organization.
 2. Import the assets into that branch within Unity. 
 	 -  Import settings can be changed in Unity to reduce file size/modify the asset, which can fix common issues. 
 3. Optionally implement the asset where it is needed. 
-5. Make a [Pull Request](https://github.com/rit-vip-echoes/.github/blob/main/profile/pullRequests.md) for the asset.
+4. Make a [Pull Request](https://github.com/rit-vip-echoes/.github/blob/main/profile/pullRequests.md) for the asset.
       This will allow team members to view and approve it. Be sure to link to the drive files as well. 
 
 ## File Information 
