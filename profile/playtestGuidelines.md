@@ -21,6 +21,7 @@ Afterwards, leads must create a new Release in GitHub.
 5. Above where the release notes are generated, write a Release Overview. This should include a summary (written by you) of the changes since the previous release, including any known bugs.
 
 See [this release](https://github.com/rit-vip-echoes/Dream-Swimmer/releases/tag/Summer2026) as an example.
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/46baeb90-8ad2-49a6-bddf-9b4179d9ada3" />
 
 
