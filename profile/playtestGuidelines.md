@@ -6,11 +6,11 @@ Before each playtest, teams must create and deploy a new build following the [de
 
 Afterwards, leads must create a new Release in GitHub.
 
-<img width="328" height="336" alt="Screenshot 2026-09-10 170226" src="https://github.com/user-attachments/assets/42b8e825-c8af-4a02-905a-ca4ee245d313" />
+<img width="300" alt="Screenshot 2026-09-10 170226" src="https://github.com/user-attachments/assets/42b8e825-c8af-4a02-905a-ca4ee245d313" />
 
-<img width="525" height="196" alt="Screenshot 2026-09-10 170352" src="https://github.com/user-attachments/assets/bd607eb4-11c7-4cd0-b679-cfbed7cb8c0b" />
+<img width="300" alt="Screenshot 2026-09-10 170352" src="https://github.com/user-attachments/assets/bd607eb4-11c7-4cd0-b679-cfbed7cb8c0b" />
 
-<img width="525" height="328" alt="Screenshot 2026-09-16 173448" src="https://github.com/user-attachments/assets/82aa99d2-355e-44e8-a728-59a6733c4fa7" />
+<img width="300" alt="Screenshot 2026-09-16 173448" src="https://github.com/user-attachments/assets/82aa99d2-355e-44e8-a728-59a6733c4fa7" />
 
 1. In the new release screen, create a new Tag and name it (semester number)-s(sprint number).
     -  Example: 2261-s2
@@ -21,6 +21,8 @@ Afterwards, leads must create a new Release in GitHub.
 5. Above where the release notes are generated, write a Release Overview. This should include a summary (written by you) of the changes since the previous release, including any known bugs.
 
 See [this release](https://github.com/rit-vip-echoes/Dream-Swimmer/releases/tag/Summer2026) as an example.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/46baeb90-8ad2-49a6-bddf-9b4179d9ada3" />
+
 
 ## Before The Playtest
 
