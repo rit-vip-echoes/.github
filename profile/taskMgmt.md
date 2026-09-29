@@ -14,21 +14,6 @@ Before each Sprint, teams will plan out a set of features and tasks related to a
 
 Features/tasks added to the current sprint should be detailed and actionable. If a task is not yet actionable, not enough information is known and instead a task to research should be used.
 
-# Projects
-Task management will be undertaken through GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). 
-
-These are project boards, where teams will keep track of their current, planned and completed tasks by organizing them into separate columns. Board organization differs slightly team by team, but generally all teams have columns for a Project Backlog, a Sprint Backlog, In Progress Tasks, Tasks Under Review, Completed Tasks, and a Task Graveyard.
- -    Project Backlog: used for tracking all tasks to be completed at some point over the project. When a task is created, this is where it first goes.
- -    Sprint Backlog: Tasks to be completed over the current Sprint. Tasks are taken from the project backlog at the beginning of the Sprint and placed here.
- -    In Progress: Tasks that are currently being worked on by someone. 
- -    Under Review: Completed tasks that are awaiting a PR or review from a lead.
- -    Completed: Tasks that have been finished. THIS INCLUDES DOCUMENTATION! Please document your code before considering it complete.
- -    Blocked: Tasks that cannot be worked on due to reliance on other tasks or other external factors.
- -    Graveyard: Tasks that were created but for one reason or another the team decided were not necessary. Placed here for posterity's sake, in case there's ever a need to reference an abandoned task. 
-
-It's important to regularly update the project board, not just for your team's sake but for the production team and other leads to be able to keep track of progress across teams. The producers and Erika should be able to open up the project board at any given time and have a comprehensive understanding of where the project is at and what every team member is working on at a given time.
-
-## Setup
 ### Milestones
 Milestones are effectively what GitHub calls Sprints, and we'll utilize them as Sprints within echoes. Milestones are how we separate out a semester into iterative 'chunks', in which teams set development goals to achieve during a Sprint. Teams work for two weeks on developing and implementing their planned features before testing and receiving feedback through public and private playtests. At the end of a Sprint, teams meet to reflect on the concluded Sprint; what worked, what didn't work, what they should start doing and what they should stop doing. This reflection period, also known as a Sprint Retrospective, is where teams will reevaluate their approach to development and allow for course correction should they encounter issues or roadblocks. Afterwards, based on feedback from testing, the team sets new goals for the next Sprint, then repeating the entire process. 
 
@@ -50,6 +35,46 @@ Milestones will need to be setup to allow for the proper per-Sprint views of tas
 
 
    - [Semester Sprint Schedule (MyCourses)](https://mycourses.rit.edu/d2l/le/content/1167946/viewContent/11038364/View)
+
+### Sprint Review
+Upon completion of a Sprint, its important for a team to get together and perform a Sprint Review. In this, teams should begin by evaluating their Sprint/Milestone goals, and whether or not they achieved on them and why. This is partially why its important to assign Milestones to tasks; it allows the team to easily see their progress on everything assigned to the Milestone when it comes time for a Sprint Review, including what they were able to complete or what went unfinished. Teams can then reflect on their progress; were they overworked and failed to meet goals, or were they lacking work after the first week? Reviewing the Milestone goals and assigned tasks allows teams to make process adjustments for smoother sprints going forward. 
+
+In addition to reviewing progress towards a Sprint/Milestone goal, teams should evaluate their process from a production standpoint, using the Starfish Method. In this, team members take turns placing behavior related to their Sprint's development in one of five categories:
+
+ - What Should We Stop Doing?
+ - What Should We Start Doing?
+ - What Should We Keep Doing?
+ - What Should We Do More Of?
+ - What Should We Do Less Of?
+
+or more simply:
+
+ - Stop Doing
+ - Start Doing
+ - Keep Doing
+ - Do More Of
+ - Do Less Of
+
+Doing this helps the team decompress and look inward on behavior, allowing them to course correct any negative habits the team may have developed as well as recognizing what's been working and why. 
+
+Afterwards, teams should decide on their Sprint/Milestone goals for the upcoming Sprint, as well as revisiting the Product Backlog and decide on what they want to bring into the next Sprint, moving those items into the Sprint Backlog. Its important as well to make sure and go through and add greater description to the items moved into the Sprint Backlog; the Product Backlog items are generally more open to allow them to be adaptable to the needs of the project, and this is the time when the project needs them!
+
+# Setup
+
+## Projects
+Task management will be undertaken through GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). 
+
+These are project boards, where teams will keep track of their current, planned and completed tasks by organizing them into separate columns. Board organization differs slightly team by team, but generally all teams have columns for a Project Backlog, a Sprint Backlog, In Progress Tasks, Tasks Under Review, Completed Tasks, and a Task Graveyard.
+ -    Project Backlog: used for tracking all tasks to be completed at some point over the project. When a task is created, this is where it first goes.
+ -    Sprint Backlog: Tasks to be completed over the current Sprint. Tasks are taken from the project backlog at the beginning of the Sprint and placed here.
+ -    In Progress: Tasks that are currently being worked on by someone. 
+ -    Under Review: Completed tasks that are awaiting a PR or review from a lead.
+ -    Completed: Tasks that have been finished. THIS INCLUDES DOCUMENTATION! Please document your code before considering it complete.
+ -    Blocked: Tasks that cannot be worked on due to reliance on other tasks or other external factors.
+ -    Graveyard: Tasks that were created but for one reason or another the team decided were not necessary. Placed here for posterity's sake, in case there's ever a need to reference an abandoned task. 
+
+It's important to regularly update the project board, not just for your team's sake but for the production team and other leads to be able to keep track of progress across teams. The producers and Erika should be able to open up the project board at any given time and have a comprehensive understanding of where the project is at and what every team member is working on at a given time.
+
 ### Issue Creation
 
 1. Type the issue name in the bottom dialogue box on the project board, then hit `enter`.
@@ -64,6 +89,24 @@ Milestones will need to be setup to allow for the proper per-Sprint views of tas
    - Milestone: Select the Milestone this task should go under. `None` is ok if the task is not yet ready for a Sprint. 
 
 <img width="790" height="763" alt="Screenshot 2025-08-19 160710" src="https://github.com/user-attachments/assets/82460d20-1cb3-4f08-8918-a67fd636eabc" />
+
+### Updating Tasks
+Once you start on a task, its important to go to the project board and drag the task from "Sprint Backlog" to "In Progress", assigning yourself to the task and filling out the card if it was not already filled. 
+
+As you work on a task, its important to keep the card updated with info as you start and stop work on a task, as this allows both your team and the production team to have a strong grasp on the work getting done. A useful way of achieving this is to leave comments on the task card itself. You should leave comments updating members on your status on the card whenever you make a push to a branch or repo, including when a task is completed. 
+
+You can link a push to a task, allowing it to be viewed from the comments section, by beginning the commit message with "#(task number)". For example, naming your commit "#181 fixed character movement". 
+
+### Completing a Task
+
+After a task has been completed, move it to the "Under Review" column, adding a comment explaining what needs to be reviewed by another member in order to be considered complete. Once reviewed, tasks can then be moved to the "Done" column.
+
+As echoes consists of students at a variety of years and disciplines, it’s important to have a mutual understanding of what is considered “done” for a task. For our purposes, a task must meet these criteria before it can be considered done and categorized as such:
+
+1. The original task’s description has been fully completed/realized. 
+2. Of presentable quality, no major bugs or oversights related to the task.
+3. Progress on the task has been properly documented in all proper places (GitHub task board, GitHub wiki, GDD, etc). 
+4. Reviewed and approved by other team members. 
 
 ### Status Deletion
 1. Navigate to your project.
@@ -108,11 +151,4 @@ Use bugs to track issues and how they are reproduced. These should be added to t
 
 It's very important that bugs, upon completion, receive extensive testing to make sure the bug was fully fixed and that no new bugs were created in the process. Ideally, when fixing a bug you do not create new bugs. However, if a bugfix is essential enough that its better to have a buggy fix to a bugfix, then you'll need to add the new bugs to the board as well. This should be a conversation with the team, not an individual decision to create more issues than you've solved. 
 
-## Completing a Task
-As echoes consists of students at a variety of years and disciplines, it’s important to have a mutual understanding of what is considered “done” for a task. For our purposes, a task must meet these criteria before it can be considered done and categorized as such:
-
-1. The original task’s description has been fully completed/realized. 
-2. Of presentable quality, no major bugs or oversights related to the task.
-3. Progress on the task has been properly documented in all proper places (GitHub task board, GitHub wiki, GDD, etc). 
-4. Reviewed and approved by other team members. 
 
