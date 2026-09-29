@@ -10,7 +10,7 @@ The public `.github` repo contains the common GitHub templates & workflows for a
    - [Audio Pipeline Guide](audioPipelineGuide.md)
    - [Music Composition](musicComposition.md)
    - [Art and Asset Software](artAndAssetSoftwares.md)
-- [Building to WebGL](webGLBuild.md)
+- [Technical Requirements & Building to WebGL](webGLBuild.md)
 - [Development Operations](devOps.md)
 - [Version Control](versionControl.md)
   - [Branching](branches.md) 
