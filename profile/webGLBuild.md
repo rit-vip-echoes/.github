@@ -13,27 +13,33 @@
 # Building
 1. Ensure WebGL Build Support is installed to Unity.
   
-2. Use [this custom minimal template](https://github.com/seleb/Better-Minimal-WebGL-Template)
+2. Setup [this custom minimal template](https://github.com/seleb/Better-Minimal-WebGL-Template)
   
 3. Select `WebGL` from build options. Switch to the `WebGL` Platform. 
 <img width="1904" height="604" alt="Screenshot 2025-08-18 201828" src="https://github.com/user-attachments/assets/4edbe606-2bd4-46db-95d6-7161b9a82720" />
 
-4. Update `Player Settings`:
+4. Update `Player Settings` - Overall:
    - Set the `Company Name` to: "echoes VIP @ RIT"
    - Set the `Product Name` to the game title
-   - Under `Resolution and Presentation`:
-     - Set Default Canvas Width to 1280 and Default Canvas Height to 720
-   - Under publishing settings, set `Compression Format` to `Disabled`.
+<img width="444" height="105" alt="image" src="https://github.com/user-attachments/assets/a18e628b-25f7-4dcc-94a3-c425a3e16bb1" />
 
-5. Select `Build` or `Build and Run`.
+5. Update `Player Settings` - `Resolution and Presentation`:
+     - Change to the Minimal template
+     - Set Default Canvas Width to 1280 and Default Canvas Height to 720
+<img width="423" height="236" alt="image" src="https://github.com/user-attachments/assets/1a4e8fd3-fb7c-4ff9-ad54-3a98f13a9b6d" />
+
+6. Update `Player Settings` - `Publishing Settings`, set `Compression Format` to `Disabled`.
+<img width="420" height="78" alt="image" src="https://github.com/user-attachments/assets/187a4a01-6465-4a42-97ca-82f597ed8e39" />
+
+7. Select `Build` or `Build and Run`.
    
-6. Ensure the Build Path is under the `docs` folder within the repository if the build is intended to be pushed.
+8. Ensure the Build Path is under the `docs` folder within the repository if the build is intended to be pushed.
    
-7. Wait.......
+9. Wait.......
     
-8. If `Build and Run` was selected, the game should pop up to be tested when the build is finished.
+10. If `Build and Run` was selected, the game should pop up to be tested when the build is finished.
     
-9. Otherwise, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) from VS-Code can be used to run the index.html file on a local server to test the build.
+11. Otherwise, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) from VS-Code can be used to run the index.html file on a local server to test the build.
    <img width="1531" height="997" alt="image" src="https://github.com/user-attachments/assets/13173774-60c3-4b6a-a346-826ff8ed2a65" />
 
 # Common Issues
