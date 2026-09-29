@@ -1,32 +1,42 @@
-# Building to WebGL
-## How To
+# Technical Requirements
+1. The game build as a whole should not exceed 100 megabytes in order to keep our total deployment size to Vercel low.
+   - This is also in line with [itch.io](http://itch.io)’s [upload limit](https://itch.io/docs/creators/html5#zip-file-requirements) since we need to be able to upload to itch.io to be able to submit to games publications such as the [Game Poems magazine](https://www.gamepoems.com/).
+2. Textures should remain small, at max 2048 x 2048.
+   - Textures should be powers of 2 in size as to make division easier for the GPU.
+   - We are already using a medium not known for its fastest computation, so let’s not make it worse.
+   - Try to make the game build as small as possible without sacrificing much quality.
+3. Remember that not all players will have a GPU and may be running in a web browser on minimal hardware.
+   - We avoid shaders & other GPU-intensive operations as much as possible.
+4. The game aspect ratio MUST be 1280x720.
+   - All games deployed to [echoes-vip](https://www.echoes-vip.org/) will be displayed at this ratio/size regardless of how they were built!
+
+# Building
 1. Ensure WebGL Build Support is installed to Unity.
   
-2. [Legacy Build (pre 6.0)](https://docs.unity3d.com/2020.1/Documentation/Manual/webgl-building.html)
+2. Use [this custom minimal template](https://github.com/seleb/Better-Minimal-WebGL-Template)
   
 3. Select `WebGL` from build options. Switch to the `WebGL` Platform. 
 <img width="1904" height="604" alt="Screenshot 2025-08-18 201828" src="https://github.com/user-attachments/assets/4edbe606-2bd4-46db-95d6-7161b9a82720" />
 
-5. Update `Player Settings`:
+4. Update `Player Settings`:
    - Set the `Company Name` to: "echoes VIP @ RIT"
    - Set the `Product Name` to the game title
    - Under `Resolution and Presentation`:
-     - Set Default Canvas Width to 1080 and Default Canvas Height to 720 (or use a similarly sized aspect ratio).
-     - Set the WebGL template to Minimal (or, better yet, consider using [this custom minimal template](https://github.com/seleb/Better-Minimal-WebGL-Template)).
+     - Set Default Canvas Width to 1280 and Default Canvas Height to 720
    - Under publishing settings, set `Compression Format` to `Disabled`.
 
-7. Select `Build` or `Build and Run`.
+5. Select `Build` or `Build and Run`.
    
-8. Ensure the Build Path is under the `docs` folder within the repository if the build is intended to be pushed.
+6. Ensure the Build Path is under the `docs` folder within the repository if the build is intended to be pushed.
    
-9. Wait.......
+7. Wait.......
     
-10. If `Build and Run` was selected, the game should pop up to be tested when the build is finished.
+8. If `Build and Run` was selected, the game should pop up to be tested when the build is finished.
     
-11. Otherwise, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) from VS-Code can be used to run the index.html file on a local server to test the build.
+9. Otherwise, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) from VS-Code can be used to run the index.html file on a local server to test the build.
    <img width="1531" height="997" alt="image" src="https://github.com/user-attachments/assets/13173774-60c3-4b6a-a346-826ff8ed2a65" />
 
-## Common Issues
+# Common Issues
 WebGL can have tons of problems building/running successfully.
 If a problem comes up and is not listed, add it below.
 
