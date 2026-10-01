@@ -1,6 +1,8 @@
 # Naming Conventions
 
+Generally, the most important thing when it comes to naming conventions is making sure naming conventions are consistent! They can vary across teams and projects, but as long as each team follows a consistent DOCUMENTED naming convention for their assets in a project then you should be fine. Try to keep names descriptive of what the file actually is; avoid names like `JackPederson1.cs, JackPederson2.cs` as that's not descriptive of the functionality of the script or file. 
 
+Teams should all agree on a naming convention for their files early on in a project's development, and refresh the teams of the convention upon the start of a new semester so all the new files done by new team members are in line with the older files' naming convention and structure. 
 
 # Coding Standards
 
@@ -8,7 +10,7 @@ Unity utilizes C# scripts, so we'll be following the largely agreed upon profess
 
 ### Public Variables and the 'var' type
 
-You should avoid declaring variables as public at all costs. This exposes the data and breaks encapsulation, and is generally frowned upon. Instead, declare variables as private and then encapsulate them with a separate Property utilizing a getter and a setter.
+You should avoid declaring variables as public at all costs (properties and functions are fine). This exposes the data and breaks encapsulation, and is generally frowned upon. Instead, declare variables as private and then encapsulate them with a separate Property utilizing a getter and a setter.
 
 An example of this may look like:
 
@@ -57,5 +59,27 @@ The string cheeseBurger would then be set to the string "cheese burger".
 ### Indentation
 
 Probably not something people are going to care too much about on echoes, but proper indentation for C# is to use four spaces rather than pressing the tab key.
+
+
+# Unity Conventions
+
+### Prefabs
+In the editor, you should try to utilize prefabs as much as possible. They allow for reusability between scenes and are good for avoiding merge conflicts. 
+
+You can find more documentation on Prefabs [here](https://docs.unity3d.com/Manual/Prefabs.html).
+
+### Namespaces 
+Namespaces are a great way to help organize code. For example, all scripts related to how the player works in a game could be in the player namespace.
+
+Namespaces allow scripts to have the same name as long as they are in a different namespace, which can reduce name length.
+
+Documentation can be found [here](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/namespaces).
+
+### SerializeField
+While you shouldn't use public variables, if you want to expose a variable to be changed in the editor you can write [SerializeField] before the access modifier. This allows you to edit a variable's value in editor, while still maintaining it as a private or protected variable.
+
+### Scene Organization
+
+Keep each scene tidy. Use empty game objects to hold related objects together, such as Canvases, Lights etc. This will reduce clutter of the scene and make it easier to find needed objects. Try to keep things in hierarchies to make scene organization efficient.
 
 
