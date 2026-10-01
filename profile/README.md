@@ -5,7 +5,7 @@ The public `.github` repo contains the common GitHub templates & workflows for a
 - [All Hands Guide](allHandsGuide.md)
 - [Playtest Guidelines](playtestGuidelines.md)
 - [Task Management](taskMgmt.md)
-- [Unity and Coding Standards](unityStandards.md)
+- [Naming Conventions, Coding Standards and Unity Standards](namingConventionsAndCodeStandards.md)
 - [Art and Aesthetics Standards](assetStandards.md)
    - [Audio Pipeline Guide](audioPipelineGuide.md)
    - [Music Composition](musicComposition.md)
