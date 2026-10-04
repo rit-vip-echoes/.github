@@ -4,7 +4,10 @@
 The public `.github` repo contains the common GitHub templates & workflows for all echoes projects.
 - [All Hands Guide](allHandsGuide.md)
 - [Playtest Guidelines](playtestGuidelines.md)
-- [Task Management](taskMgmt.md)
+- [Team Management](teamMgmt.md)
+  - [Sprint Management](sprintMgmt.md)
+  - [Task Management Pt.1](taskMgmt.md)
+  - [Task Management Pt.2](taskMgmt2.md)
 - [Naming Conventions, Coding Standards and Unity Standards](namingConventionsAndCodeStandards.md)
 - [Art and Aesthetics Standards](assetStandards.md)
    - [Audio Pipeline Guide](audioPipelineGuide.md)
