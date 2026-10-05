@@ -45,7 +45,7 @@ This instructional index card can also include hints if there are known vague/un
 
 ## During The Playtest
 
-Things your team needs to bring to bring to a playtest:
+Things your team needs to bring to a playtest:
     - your game (using the web deployed build, not the Unity editor) is set up across 3-5 machines
     - if your game includes audio, provide working headphones. 
 
